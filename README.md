@@ -1,10 +1,13 @@
-# laravel-helpers
-Useful Laravel helpers not found in the Laravel framework.
+# Laravel Helpers
+Useful Laravel helpers not found in the Laravel Framework.
 
-The only helper for now is a dump helper, the 'd' function that does a dump exactly like the laravel dd function, only it does not exit the code after.
+The only helper for now is a dump helper, the  `d()` function that does a dump exactly like the laravel  `dd() ` function, only it does not exit the code after.
 
-To add to your project, add this to your 'composer.json' file and run 'composer install'.
+# Installation
 
+To add to your project, add this to your `composer.json` file and run `composer install`.
+
+```json
 "repositories": [
     {
         "type": "git",
@@ -14,3 +17,4 @@ To add to your project, add this to your 'composer.json' file and run 'composer 
 "require-dev": {
     "melkorr/laravel-helpers": "dev-master"
 },
+```
