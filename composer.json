@@ -1,0 +1,25 @@
+{
+    "name": "melkorr/laravel-helpers",
+    "description": "Useful Laravel helpers not found in the Laravel framework.",
+	"type": "project",
+    "authors": [
+        {
+            "name": "Adam Ludovic",
+            "email": "ludovic_tm@yahoo.com"
+        }
+    ],
+	"require": {
+	    "php": ">=5.5.9",
+	    "laravel/framework": "5.1.*"
+	},
+	"autoload": {
+
+	},
+	"autoload-dev": {
+	    "files": [
+	        "helpers.php"
+	    ]
+	},
+	"minimum-stability": "dev"
+}
+
